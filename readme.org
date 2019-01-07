@@ -1,0 +1,7 @@
+* Kriptoloji Projesi : Executable'in Korunmasi
+** Kullanilan Yontemler
+  - SHA1 ile key generetaion (./getDiskID)
+  - Obfuscation Yontemleri (/cpp-neural-network)
+    - control flow flattening
+    - instruction substitution
+    - bogus control flow 
