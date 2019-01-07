@@ -5,3 +5,13 @@
     - control flow flattening
     - instruction substitution
     - bogus control flow 
+** Sonuçlar
+#+caption: Farklı Obfuscation yöntemleriyle elde edilen kod boyutları ve execution time sonuçları 
+|--------------------------+---------------+--------+--------+---------|
+| Obfuscation Yontemleri   | Kod Boyutlari | User   | Sistem | Total   |
+|--------------------------+---------------+--------+--------+---------|
+| (-)                      | 324KB         | 25.99s | 0.09s  | 26.153s |
+| Control Flow Flattening  | 352KB         | 29.12s | 0.10s  | 29.298s |
+| Bogus Control Flow       | 320KB         | 26.56s | 0.13s  | 26.846s |
+| Instruction Substitution | 324KB         | 26.33s | 0.11s  | 26.553s |
+|--------------------------+---------------+--------+--------+---------|
